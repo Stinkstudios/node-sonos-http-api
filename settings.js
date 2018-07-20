@@ -25,7 +25,7 @@ var settings = {
   webroot: path.resolve(__dirname, 'static'),
   presetDir: path.resolve(__dirname, 'presets'),
   announceVolume: 40,
-  webhook: 'http://localhost:5001/ss-master-app/us-central1/sonosEvent',
+  webhook: 'https://us-central1-ss-master-app.cloudfunctions.net/sonosEvent',
 };
 
 // load user settings
