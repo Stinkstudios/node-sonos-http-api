@@ -26,6 +26,8 @@ var settings = {
   presetDir: path.resolve(__dirname, 'presets'),
   announceVolume: 40,
   webhook: 'https://us-central1-ss-master-app.cloudfunctions.net/sonosEvent',
+  webhookCover:
+    'https://us-central1-ss-master-app.cloudfunctions.net/sonosCover',
 };
 
 // load user settings
